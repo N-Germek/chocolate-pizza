@@ -4,8 +4,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" src="style.css">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Smooch+Sans:wght@500&family=Yellowtail&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Patrick+Hand&family=Smooch+Sans:wght@500&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Oswald:wght@600&family=Patrick+Hand&family=Smooch+Sans:wght@500&family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,8 +28,8 @@
 
         <nav id="delicious">
             <img src="img/logo.png">
-            <p>Delicious</p>
-            <p>THE BEST FOOD BLOG ON THE WEB</p>
+            <p id="d-title">Delicious</p>
+            <p id="d-sub">THE BEST FOOD BLOG ON THE WEB</p>
         </nav>
 
         <nav id="socialMedia">
@@ -38,38 +53,40 @@
             </a>
         </nav>
 
-        <div id="mail">
+        <nav id="mail">
             <a href="https://rss.com">
                 <img src="img/rss-icon.png">
             </a>
             <a href="https://mail.google.com">
                 <img src="img/mail-icon.png">
             </a>
-        </div>
-        <div id="topbar">
-            <img src="img/hr-img.png">
+        </nav>
+        <div class="bar">
+            <img id="bar" src="img/hr-img.png">
         </div>
     </header>
     <main>
         <h1>Chocolate Pizza</h1>
-        <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
-        <img src="img/print-icon.png"><a href="/">Print</a>
-        <img src="img/choco-pizza.png" />
-        <p> For the fig swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to disolve. Halve
+        <p id="posted">POSTED ON 15 DEC 2013 / DESSERTS</p>
+        <img id="print" src="img/print-icon.png"><a id="printed" href="/">Print</a>
+        <img id="hero" src="img/choco-pizza.png" />
+        <section id="instructions">
+        <p id="p1">For the fig swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to disolve. Halve
             all
             of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently,
             until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
         </p>
-        <p> Ice cream: In small pot over medium heat, combine milk, and granulated sugar until sugar is completely
+        <p id="p2">Ice cream: In small pot over medium heat, combine milk, and granulated sugar until sugar is completely
             dissolved and the milk is just barely lukewarm. Whisk in egg yolks. Set mixture in the fridge and wait until
             the fig mixture is cooled. </p>
-        <p> Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
+        <p id="p3">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
             instructions, i.e., let spin and thicken 20 minutes before adding marscapone, gif jam mixture, and the nuts.
             Continue to process for +&#47- 10 minutes. Pour semi-frozen mixture into pyrex dish or glass tupperware.
             Freeze for at least two hours before serving. </p>
+            </section>
         <div class="container">
-            <img src="img/list-bg.png">
-            <atricle id="columnOne">
+            <img id="list" src="img/list-bg.png">
+            <article id="columnOne">
                 <ul>
                     <li><button></button>1 1&#47 2 cups milk</li>
                     <li><button></button>1&#47 2 cup marscapone</li>
@@ -79,26 +96,26 @@
                     <li><button></button>2-4 tbsp water</li>
                 </ul>
                 </article>
-                <atricle id="columnTwo">
+                <article id="columnTwo">
                     <ul>
                         <li><button></button>1 1&#47 2</li>
-                        <li><button></button>1&#47 3 granulated sugar</li>
-                        <li><button></button>2 egg yolks</li>
+                        <li><button></button><s>1&#47 3 granulated sugar</s></li>
+                        <li><button></button><s>2 egg yolks</s></li>
                         <li><button></button>1 lemon juiced</li>
                         <li><button></button>2 tbsp butter</li>
-                        <li><button></button>1 cup honey roasted pecans, </b> roughly chopped</li>
+                        <li><button></button>1 cup honey roasted pecans, roughly <br> chopped</li>
                     </ul>
                     </article>
         </div>
-        <div id="bottom bar">
-            <img src="img/hr-img.png" id="hero">
+        <div class="bar">
+            <img id="bar" src="img/hr-img.png">
         </div>
         <section>
             <h5>Vanessa Stevenson</h5>
             <img src="img/van-pic.png">
             <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
             </p>
-            <button>Share Recipe</button>
+            <button id="share">SHARE RECIPE</button>
         </section>
     </main>
     <footer>
