@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+nav .delicious {
+    display: flex;
+align-content: flex;
+}
+nav .socialMedia {
+    display: flex;
+align-content: flex;
+}
